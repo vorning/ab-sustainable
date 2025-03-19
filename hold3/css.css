@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Playfair Display', serif; /* Corrected font-family syntax */
+    font-family: 'opake heavy', serif; /* Corrected font-family syntax */
     background-color: #f4f4f4;
     font-style: normal; 
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-    background: #055508; 
+    background: #163913; 
     border-radius: 38px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
