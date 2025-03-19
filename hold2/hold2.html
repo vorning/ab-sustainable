@@ -1,23 +1,212 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bæredygtig UX/UI Design</title>
+    <link rel="stylesheet" href="https://use.typekit.net/nsv1vzj.css" />
+    <link href="https://fonts.cdnfonts.com/css/arial-2" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="light-mode">
+    <header>
+      <div class="container">
+        <h1>Bæredygtig UX/UI Design</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Test1</a></li>
+            <li><a href="#">Test2</a></li>
+            <li><a href="#">Test3</a></li>
+          </ul>
+        </nav>
+        <div class="theme-toggle">
+          <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+            <span class="sun-icon">☀️</span>
+            <span class="moon-icon">🌙</span>
+          </button>
+        </div>
+      </div>
+    </header>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h2>
+              Design for en <span class="highlight">Bæredygtig</span> Fremtid
+            </h2>
+            <p>
+              Udforsk, hvordan UX/UI-design kan bidrage til miljømæssig
+              bæredygtighed gennem gennemtænkte digitale oplevelser.
+            </p>
+          </div>
+          <div class="hero-image">
+            <img
+              src="img/SustainHero.webp"
+              alt="Sustainable design illustration"
+              class="responsive-img"
+            />
+          </div>
+        </div>
+      </section>
 
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required></textarea>
+      <section id="overview" class="overview">
+        <div class="container">
+          <h2>Hvorfor Bæredygtig UX/UI?</h2>
+          <div class="stats-container">
+            <div class="stat-card">
+              <h3>4%</h3>
+              <p>
+                af de globale CO₂-udledninger stammer fra digitale teknologier.
+              </p>
+            </div>
+            <div class="stat-card">
+              <h3>70%</h3>
+              <p>energibesparelse er mulig med effektivt webdesign.</p>
+            </div>
+            <div class="stat-card">
+              <h3>1.5s</h3>
+              <p>
+                sekunders hurtigere indlæsningstid kan øge konverteringsraterne
+                med 15 %.
+              </p>
+            </div>
+          </div>
+          <p class="intro-text">
+            Bæredygtigt UX/UI-design er ikke kun godt for planeten – det gavner
+            også brugere og virksomheder. Ved at skabe mere effektive,
+            tilgængelige og gennemtænkte digitale oplevelser kan vi reducere
+            miljøpåvirkningen samtidig med at forbedre brugeroplevelsen.
+          </p>
+        </div>
+      </section>
 
-    <p> Holm was here</p>
+      <section id="examples" class="examples">
+        <div class="container">
+          <h2>Interaktive eksempler</h2>
+          <div class="example-grid">
+            <div class="example-card" id="dark-mode-example">
+              <h3>Dark Mode</h3>
+              <p>
+                Reducerer energiforbruget på OLED-skærme og mindsker
+                øjenbelastning.
+              </p>
+              <div class="example-demo">
+                <div class="phone-mockup">
+                  <div class="phone-screen" id="dark-mode-demo">
+                    <div class="demo-content">
+                      <div class="demo-header"></div>
+                      <div class="demo-body">
+                        <div class="demo-text-line"></div>
+                        <div class="demo-text-line"></div>
+                        <div class="demo-text-line"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="demo-toggle" id="dark-mode-toggle">
+                  Toggle Mode
+                </button>
+              </div>
+              <div class="impact-stats">
+                <p>Op til 30 % energibesparelse på OLED-skærme.</p>
+              </div>
+            </div>
 
-    <button type="submit">Submit</button>
-  </form>
-</body>
+            <div class="example-card" id="reduced-motion-example">
+              <h3>Reduced Motion</h3>
+              <p>
+                Minimerer animationer for at reducere batteriforbrug og forbedre
+                tilgængelighed.
+              </p>
+              <div class="example-demo">
+                <div class="animation-demo" id="motion-demo">
+                  <div class="animated-element"></div>
+                </div>
+                <button class="demo-toggle" id="motion-toggle">
+                  Start Animation
+                </button>
+              </div>
+              <div class="impact-stats">
+                <p>Reducerer CPU-forbrug med op til 40 % på mobile enheder.</p>
+              </div>
+            </div>
+
+            <div class="example-card" id="image-optimization-example">
+              <h3>Image Optimization</h3>
+              <p>
+                Reducerer filstørrelser uden at gå på kompromis med kvaliteten.
+              </p>
+              <div class="example-demo">
+                <div class="image-comparison">
+                  <div class="image-original">
+                    <img
+                      src="img/sustainableEnergy.png"
+                      alt="Ikke optimeret billede"
+                      class="responsive-img"
+                    />
+                    <span>Original (1.2MB)</span>
+                  </div>
+                  <div class="image-optimized">
+                    <img
+                      src="img/sustainableEnergy.webp"
+                      alt="Optimeret billede"
+                      class="responsive-img"
+                    />
+                    <span>Optimized (120KB)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="impact-stats">
+                <p>Reducerer båndbreddeforbrug med op til 90 %.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="calculator" class="calculator">
+        <div class="container">
+          <h2>Hjemmeside CO₂ Lommeregner</h2>
+          <p>Estimer din hjemmesides CO₂-aftryk med vores enkle beregner.</p>
+          <div class="calculator-form">
+            <div class="form-group">
+              <label for="page-size">Hjemmeside str. (KB):</label>
+              <input type="number" id="page-size" value="2000" min="1" />
+            </div>
+            <div class="form-group">
+              <label for="monthly-visits">Månedlige besøg :</label>
+              <input type="number" id="monthly-visits" value="10000" min="1" />
+            </div>
+            <div class="form-group">
+              <label for="hosting-type">Hosting Type:</label>
+              <select id="hosting-type">
+                <option value="standard">Standard</option>
+                <option value="green">Grøn Hosting</option>
+              </select>
+            </div>
+            <button id="calculate-carbon" class="btn">Beregn påvirkning</button>
+          </div>
+          <div class="calculator-results" id="calculator-results">
+            <p>
+              Din hjemmesides estimerede CO₂-udledning:
+              <span id="carbon-result">0</span> kg CO2 per år
+            </p>
+            <p>
+              Equivalent to <span id="tree-result">0</span> Træer nødvendige for
+              at kompensere årligt
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Sustainable UX/UI Design. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
