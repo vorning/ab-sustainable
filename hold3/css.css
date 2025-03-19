@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: 'opake heavy', serif; /* Corrected font-family syntax */
-    background-color: #f4f4f4;
-    font-style: normal; 
+font-family: opake heavy;    
+background-color: #f4f4f4;
+ font-style: normal; 
 }
 
 .card-container {
