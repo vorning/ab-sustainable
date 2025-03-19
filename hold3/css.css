@@ -7,7 +7,8 @@
 body {
 font-family: opake heavy;    
 background-color: #f4f4f4;
- font-style: normal; 
+ font-style: normal;
+ font-weight: 50px; 
 }
 
 .card-container {
