@@ -62,12 +62,51 @@ img {
 
 .con-img2 {
     flex: 0 0 auto; /* Gør billedet statisk i størrelsen */
-    max-width: 45%; /* Begrænser billedets bredde */
+    max-width: 40%; /* Begrænser billedets bredde */
 }
 
 .text2 {
     flex: 1; /* Gør tekstcontaineren fleksibel */
     padding-left: 20px; /* Giver lidt afstand til billedet */
+}
+
+h1 {
+    color: #163913;
+    margin-top: 0;
+    font-family: "opake", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+
+.informationsboks {
+    display: flex;
+    align-items: center; /* Sikrer, at indholdet er centreret vertikalt */
+    justify-content: space-between; /* Placerer tekst og billede med maksimal afstand */
+    margin-left: 10%;
+    margin-bottom: 5%;
+    max-width: 90%;
+}
+
+.content3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text3 {
+    flex: 1; /* Gør tekstcontaineren fleksibel og udnytter den tilgængelige plads */
+    padding-right: 20px; /* Giver lidt afstand til billedet */
+}
+
+.con-img3 {
+    flex: 0 0 auto; /* Sørger for, at billedet ikke bliver fleksibelt */
+    max-width: 45%; /* Begrænser billedets bredde */
 }
 
 h1 {
