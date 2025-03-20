@@ -58,10 +58,8 @@ h1 {
 
 .text-box {
     background-color: #163913;
-    border-radius: 5px;
-    padding: 15px;
+    padding: 25px;
     color: #ffffff;
-    font-sirgb:(255, 252, 252)16px;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
