@@ -49,8 +49,9 @@ h1 {
     flex: 1 1 calc(25% - 3.5rem);
     display: flex;
     flex-direction: row;
-    height: 320px;
     width: 400px;
+    aspect-ratio: 5/4;
+    height: auto;
     border-radius: 1rem;
 }
 
