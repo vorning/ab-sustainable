@@ -7,6 +7,8 @@ body {
 .informationsboks {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 10%; 
     margin-bottom: 5%;    
     max-width: 50%;
@@ -20,16 +22,24 @@ h1 {
     font-style: normal;
     font-size: 40px;
 }
- 
-  .text1 {
-    max-width: 70%; /* Begrænser bredden på teksten */
-  }
-  
-  .con-img1 {
-    max-width: 50%; /* Begrænser bredden på billedet */
-    flex-direction: column;
-  }
-  
-  img {
-    width: 100%; /* Gør billedet responsivt */
-  }
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text1 {
+    flex: 1; /* Teksten tager så meget plads som muligt */
+    max-width: 60%; /* Begrænser tekstens bredde */
+    padding-right: 20px; /* Giver lidt afstand til billedet */
+}
+
+.con-img1 {
+    flex: 0 0 auto; /* Gør billedet statisk i størrelsen */
+    max-width: 35%; /* Begrænser billedets bredde */
+}
+
+img {
+    width: 100%; /* Sørger for, at billedet er responsivt */
+    height: auto; /* Sørger for at bevare billedets proportioner */
+}
