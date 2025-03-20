@@ -1,0 +1,63 @@
+/*Reset style*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Baggrundsfarve*/
+body {
+    background-color: #E3E7C8;
+}
+
+/*Overskrifter*/
+.overskrifter {
+    display: flex;
+    justify-content: center;  
+    margin: 25px 0 25px 0;
+    font-family: "opake", sans-serif;
+}
+
+
+/*content*/
+.overskrifter-h3 {
+    margin: 25px 0 25px 100px;
+    font-family: "opake", sans-serif;
+
+}
+
+.tekst, .liste {
+    margin: 20px 50px 20px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*List-styling*/
+.liste {
+    list-style-image: url(img/bullet-point.svg);
+    
+}
+
+/*Figurer*/
+img.figur1 {
+    width: 100px;
+    height: 100px;
+    opacity: 20%;
+    margin-left: 100px;
+    position: fixed;
+}
+
+img.figur2 {
+    width: 140px;
+    height: 155px;
+    opacity: 20%;
+    position: fixed;
+    margin-left: 1100px;
+}
+
+img.figur3 {
+    width: 135px;
+    height: 100px;
+    opacity: 20%;
+    position: fixed;
+    margin-left: 750px;
+}
