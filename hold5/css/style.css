@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --sandstone: #D1B188;
+    --marigold: #FEBC32;
+    --espresso: #2C180D;
+    --olivewood: #C5C77C;
+    --sagebrush: #E3E7C8;
+    --pinewood: #163913;
+}
+
+body {
+    font-family: Arial, system-ui, sans-serif;
+    background-color: var(--sagebrush);
+    color: var(--espresso);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 5rem;
+}
+
+h1 {
+    font-family: "opake", sans-serif;
+    display: flex;
+    align-self: center;
+    width: fit-content;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin: 5rem 0;
+    row-gap: 3.5rem;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: fit-content;
+    column-gap: 3.5rem;
+}
+
+.blog:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.article-lottie {
+    width: 50%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.article-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    aspect-ratio: 16/9;
+    row-gap: 1rem;
+}
+
+.article-text h2 {
+    font-family: "opake", sans-serif;
+}
+
+.article-text p {
+    max-height: 100%;
+    overflow-y: hidden;
+}
+
+.article-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-text a:hover {
+    text-decoration: underline;
+}
