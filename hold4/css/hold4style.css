@@ -15,4 +15,8 @@ body {
 h1 {
     color: #163913;
     margin-top: 0;
+    font-family: "opake", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
+
