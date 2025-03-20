@@ -1,0 +1,17 @@
+body {
+    background-color: #e3e7c8;
+    color: #2c180d;
+}
+
+.informationsboks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%; 
+    margin-bottom: 5%;    
+    max-width: 60%;
+}
+
+h1 {
+    color: #163913;
+    margin-top: 0;
+}
