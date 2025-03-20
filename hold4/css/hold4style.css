@@ -43,3 +43,42 @@ img {
     width: 100%; /* Sørger for, at billedet er responsivt */
     height: auto; /* Sørger for at bevare billedets proportioner */
 }
+
+.informationsboks {
+    display: flex;
+    flex-direction: row; /* Sætter layoutet til at være i en række */
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%; 
+    margin-bottom: 5%;    
+    max-width: 90%;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.con-img2 {
+    flex: 0 0 auto; /* Gør billedet statisk i størrelsen */
+    max-width: 45%; /* Begrænser billedets bredde */
+}
+
+.text2 {
+    flex: 1; /* Gør tekstcontaineren fleksibel */
+    padding-left: 20px; /* Giver lidt afstand til billedet */
+}
+
+h1 {
+    color: #163913;
+    margin-top: 0;
+    font-family: "opake", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+ol {
+    margin-left: 20px;
+}
