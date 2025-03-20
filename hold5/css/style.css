@@ -86,3 +86,16 @@ h1 {
 .article-text a:hover {
     text-decoration: underline;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--sandstone);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--sandstone);
+}
