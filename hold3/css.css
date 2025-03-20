@@ -12,11 +12,18 @@ background-color: #f4f4f4;
  font-weight: 50px; 
 }
 
+h1 {
+    font-family: "opake", sans-serif; 
+    text-align: center; 
+    margin: 20px 0; 
+    color:#163913 ;
+}
+
 .card-container {
     display: flex; 
     justify-content: center; 
     gap: 10px; 
-    border-radius: 38px; /* This property is not necessary for the container */
+    border-radius: 38px; 
 }
 
 .card {
@@ -52,31 +59,3 @@ background-color: #f4f4f4;
     line-height: 1.5;
 }
 
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1000; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
-}
-
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%; 
-    max-width: 700px; /* Maximum width of the modal image */
-}
-
-.close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: #ffffff; /* White color for the close button */
-    font-size: 40px; /* Size of the close button */
-    font-weight: bold; /* Bold text */
-    cursor: pointer; /* Pointer cursor on hover */
-}
