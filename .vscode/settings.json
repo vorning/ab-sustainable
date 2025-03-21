@@ -1,3 +1,7 @@
 {
-    "liveServer.settings.port": 5502
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "ls -l .git/info/exclude"
+    ],
+    "liveServer.settings.port": 5501
 }
