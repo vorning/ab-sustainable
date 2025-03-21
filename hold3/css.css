@@ -61,12 +61,12 @@ h1 {
     background-color: #163913;
     padding: 10px;
     color: #ffffff;
-    max-width: 600px;;
+    max-width: 600px;
     margin: 20px auto;
     text-align:center;
-font-family: opake heavy;    
-background-color: #f4f4f4;
- font-style: normal; 
+    font-family: opake heavy;    
+    background-color: #f4f4f4;
+     font-style: normal; 
 }
 
 .card-container {
