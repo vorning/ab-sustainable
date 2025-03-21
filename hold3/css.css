@@ -5,6 +5,66 @@
 }
 
 body {
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+h1 {
+    font-family: "opake", sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #163913;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.card {
+    background: #163913;
+    border-radius: 28px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-9px);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 10px;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-box {
+    background-color: #163913;
+    padding: 10px;
+    color: #ffffff;
+    max-width: 600px;;
+    margin: 20px auto;
+    text-align:center;
+=======
 font-family: opake heavy;    
 background-color: #f4f4f4;
  font-style: normal; 
@@ -77,4 +137,5 @@ background-color: #f4f4f4;
     font-size: 40px; /* Size of the close button */
     font-weight: bold; /* Bold text */
     cursor: pointer; /* Pointer cursor on hover */
+
 }
