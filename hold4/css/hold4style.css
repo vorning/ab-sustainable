@@ -1,0 +1,123 @@
+body {
+    background-color: #e3e7c8;
+    color: #2c180d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informationsboks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%; 
+    margin-bottom: 5%;    
+    max-width: 50%;
+}
+
+h1 {
+    color: #163913;
+    margin-top: 0;
+    font-family: "opake", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text1 {
+    flex: 1; /* Teksten tager så meget plads som muligt */
+    max-width: 60%; /* Begrænser tekstens bredde */
+    padding-right: 20px; /* Giver lidt afstand til billedet */
+}
+
+.con-img1 {
+    flex: 0 0 auto; /* Gør billedet statisk i størrelsen */
+    max-width: 35%; /* Begrænser billedets bredde */
+}
+
+img {
+    width: 100%; /* Sørger for, at billedet er responsivt */
+    height: auto; /* Sørger for at bevare billedets proportioner */
+}
+
+.informationsboks {
+    display: flex;
+    flex-direction: row; /* Sætter layoutet til at være i en række */
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%; 
+    margin-bottom: 5%;    
+    max-width: 90%;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.con-img2 {
+    flex: 0 0 auto; /* Gør billedet statisk i størrelsen */
+    max-width: 40%; /* Begrænser billedets bredde */
+}
+
+.text2 {
+    flex: 1; /* Gør tekstcontaineren fleksibel */
+    padding-left: 20px; /* Giver lidt afstand til billedet */
+}
+
+h1 {
+    color: #163913;
+    margin-top: 0;
+    font-family: "opake", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+
+.informationsboks {
+    display: flex;
+    align-items: center; /* Sikrer, at indholdet er centreret vertikalt */
+    justify-content: space-between; /* Placerer tekst og billede med maksimal afstand */
+    margin-left: 10%;
+    margin-bottom: 5%;
+    max-width: 90%;
+}
+
+.content3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text3 {
+    flex: 1; /* Gør tekstcontaineren fleksibel og udnytter den tilgængelige plads */
+    padding-right: 20px; /* Giver lidt afstand til billedet */
+}
+
+.con-img3 {
+    flex: 0 0 auto; /* Sørger for, at billedet ikke bliver fleksibelt */
+    max-width: 45%; /* Begrænser billedets bredde */
+}
+
+h1 {
+    color: #163913;
+    margin-top: 0;
+    font-family: "opake", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+ol {
+    margin-left: 20px;
+}
